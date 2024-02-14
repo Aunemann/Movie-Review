@@ -1,0 +1,76 @@
+body {
+    font-family: Roboto, sans-serif;
+    background-color: #393E46;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #222831;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #EEEEEE;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.review {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.review-img {
+    max-width: 120px;
+    margin-right: 20px;
+}
+
+.review h2 {
+    color: #333;
+}
+
+.review p {
+    margin: 0;
+}
+
+.review .rating {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.rating span {
+    color: orange;
+    margin-right: 5px;
+}
+
+.rating .starsTBWHTW::before {
+    content: "★★★☆☆";
+    letter-spacing: 3px;
+    background: linear-gradient(to right, orange 0%, orange 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+hr {
+  margin-top: 3px;
+  border: none;
+}
+/* .rating .starsMovieName::before {
+    content: "★★★☆☆";
+    letter-spacing: 3px;
+    background: linear-gradient(to right, orange 0%, orange 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
